@@ -1,0 +1,182 @@
+/*********************************************************
+ *                                                       *
+ *  Developed by CJC Automatisering.                     *
+ *  MIT License, copyright (c) 2014 MediaLab Amsterdam   *
+ *                                                       *
+ *********************************************************/
+ 
+@media (max-width: 767px) {
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.join_container,
+	.search_container {
+		height: 110px;
+	}
+	.frame {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+	.search_container {
+		margin-top: 60%;
+	}
+	body {
+		background: url('/img/dashboard_unsigned/filter2.png') no-repeat;
+		background-size: 100% 100%;
+		min-height: 100%;
+		min-width: 100%;
+		overflow-y: auto;
+	}
+	#about {
+		margin-top: 23%;
+	}
+}
+@media (min-width: 768px) {
+	#about {
+		margin-top: 15%;
+	}
+	body {
+		background: none;
+	}
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	.join_container,
+	.search_container {
+		height: 120px;
+	}
+	.search_container {
+		margin-top: 60%;
+	}
+}
+
+@media (min-width: 992px) {
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.container {
+		width: 400px;
+	}
+	.logo,
+	.logo img {
+		width: 100%;
+	}
+	.logo {
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.container {
+		width: 500px;
+	}
+	.join_container,
+	.search_container {
+		height: 210px;
+	}
+	.search_container {
+		margin-top: 30%;
+	}
+}
+
+body, html {
+	height: 100%;
+	overflow: hidden;
+}
+html {
+	background: url('/img/background/background1.jpg') no-repeat 0 0;
+	background-size: 100% 100%;
+	height: 100%;
+}
+body {
+	overflow-y: auto;
+}
+.frame {
+	min-height: 500px;
+	margin-top: 25%;
+}
+.container {
+	padding-left: -15px;
+	padding-right: -15px;
+	height: 100%;
+}
+
+.logo {
+	padding: 0;
+	margin-top: 10px;
+}
+.frame {
+	background: url('/img/dashboard_unsigned/frame.png') no-repeat;
+	background-size: 100% auto;
+	max-width: 250px;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+.join,
+.search {
+	height: 100%;
+	cursor:pointer;
+}
+.about {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background-color: white;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	cursor: pointer;
+}
+.close_about {
+	font-family: aliquam;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: rgba(51, 51, 51, 0.7);
+}
+#about {
+	display: none;
+	min-height: 75%;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10%;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+#about .title {
+	text-align: center;
+	font-family: aliquam;
+	font-size: 26px;
+	color: rgba(51, 51, 51, 0.7);
+}
+#about .col-xs-5 img {
+	margin: 0px auto;
+}
+hr {
+	border-color: rgba(51, 51, 51, 0.7);
+}

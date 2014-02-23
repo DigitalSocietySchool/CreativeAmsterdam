@@ -1,0 +1,245 @@
+/*********************************************************
+ *                                                       *
+ *  Developed by CJC Automatisering.                     *
+ *  MIT License, copyright (c) 2014 MediaLab Amsterdam   *
+ *                                                       *
+ *********************************************************/
+ 
+@media (max-width: 767px) {
+	html {
+		background: url('/img/background/mobile/bg_1.png') no-repeat 0 0;
+		background-size: 100% 100%;
+		min-height: 100%;
+	}
+	hr {
+		width: 100%;
+		border-top: 1px #333 solid;
+		float: left;
+		opacity: 0.4;
+	}
+	.contacts .title,
+	.works .title,
+	.tags .title,
+	.socials .title,
+	.location .title {
+		margin-bottom: 5px;
+	}
+	.ppicture {
+		cursor: pointer;
+		width: 170px;
+		height: 170px;
+		margin: 0 auto;
+		float: none;
+	}
+	.name {
+		text-align: center;
+		font-family: aliquamlight;
+		font-size: 24px;
+	}
+	.date {
+		background-image: url("/img/event_profile/date.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+		padding-top: 36px;
+		text-align: center;
+	}
+	.time {
+		background-image: url("/img/event_profile/time.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+		padding-bottom: 31px;
+		text-align: right;
+		font-size: 19px;
+		letter-spacing: 2px;
+	}
+}
+@media (min-width: 768px) {
+	html {
+		background: url('/img/background/laptop/bg_1.png') no-repeat 0 0;
+		background-size: 100% 100%;
+		min-height: 100%;
+	}
+	.container {
+		margin-top: 50px;
+	}
+	.col-sm-8 {
+		border-right: 1px solid rgba(51, 51, 51, 0.4);
+	}
+	hr {
+		margin-left: 0px;
+		opacity: 0.4;
+	}
+	.socials {
+		padding-left: 15px;
+	}
+	.ppicture {
+		cursor: pointer;
+		width: 225px;
+		height: 225px;
+		margin: 0 auto 10px;
+		float: none;
+	}
+	.name {
+		text-align: center;
+		font-family: aliquamlight;
+		font-size: 30px;
+	}
+	.creds table {
+		font-size: 16px;
+		letter-spacing: 1px;
+		margin: 10px auto 0;
+		font-family: aliquamlight;
+	}
+	td > img {
+		width: 30px;
+	}
+	td {
+		padding-right: 5px;
+		height: 25px;
+	}
+	.works {
+		margin: 0 auto;
+		float: none;
+	}
+	.date {
+		background-image: url("/img/event_profile/date.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+		padding-top: 60px;
+		text-align: center;
+	}
+	.time {
+		background-image: url("/img/event_profile/time.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+		padding-bottom: 35px;
+		padding-right: 80px;
+		text-align: right;
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+    	width: 970px;
+  	}
+}
+
+@media (min-width: 1200px) {}
+.time_start,
+.time_end,
+.date_day {
+	font-family: aliquamlight;
+}
+.date_day {
+	letter-spacing: 3px;
+}
+body {
+	overflow-y: auto;
+}
+.ppicture {
+	margin-top: 15px;
+}
+.ppicture img {
+	border-radius: 50%;
+	margin: 0px auto;
+	padding: 3px;
+	border: 3px solid rgb(214,174,76);
+}
+.name {
+	text-align: center;
+	font-family: aliquamlight;
+	font-size: 24px;
+	margin-top: 15px; 
+	margin-bottom: 15px;
+}
+.about {
+	margin: 10px auto 0;
+	text-align: center;
+	float: none;
+	font-family: aliquamlight;
+	opacity: 0.7;
+}
+hr {
+	width: 100%;
+	border-top: 1px #333 solid;
+	float: left;
+}
+.container {
+	padding-top: 50px;
+}
+.tags{
+	max-height: 120px;
+	overflow: hidden;
+}
+.tags,
+.socials {
+	padding-left: 30px;
+	padding-right: 15px;
+}
+.tags .title,
+.socials .title,
+.location_container .title {
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: aliquamlight;
+	font-size: 20px;
+	font-color: #333;
+	opacity: 0.7;
+}
+.tag {
+	border: 1px solid black;
+	border-radius: 30px;
+	padding: 2px 4px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	opacity: 0.7;
+}
+.social-container {
+	overflow-x: auto;
+}
+.social {
+	margin-right: 16px;
+	opacity: 0.7;
+}
+.location_container img {
+	width: 50px;
+	margin: 0 auto 10px;
+}
+.edit_button,
+.favorite_button {
+	position: fixed;
+	left: 0;
+	top: 5%;
+	width: 50px;
+}
+.delete_button,
+.close_button {
+	position: fixed;
+	left: 0;
+	top: 20%;
+	width: 50px;
+}
+.date_day {
+	font-size: 25px;
+}
+.time_date {
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+.close_button{
+	top: 35%;
+}
+.location{
+	text-align: center;
+	font-family: aliquamitalic;
+	letter-spacing: 1px;
+	opacity: 0.8;
+}
+.time_end {
+	margin-top: -8px;
+}

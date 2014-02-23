@@ -1,0 +1,101 @@
+/*********************************************************
+ *                                                       *
+ *  Developed by CJC Automatisering.                     *
+ *  MIT License, copyright (c) 2014 MediaLab Amsterdam   *
+ *                                                       *
+ *********************************************************/
+
+@font-face {
+	font-family: 'aliquam';
+	src: url('/fonts/aliquam.ttf');
+}
+@font-face {
+	font-family: 'aliquamlightitalic';
+	src: url('/fonts/aliquam_light_italic.ttf');
+}
+@font-face {
+	font-family: 'aliquamlight';
+	src: url('/fonts/aliquam_light.ttf');
+}
+@font-face {
+	font-family: 'aliquamitalic';
+	src: url('/fonts/aliquam_italic.ttf');
+}
+html {
+	height: 100%;
+	overflow-y: auto;
+}
+body{
+	font-family:Verdana;
+	height: 100%;
+	width: 100%;
+	background-color: transparent;
+}
+a {
+	display: block;
+	color: inherit;
+}
+a:hover,
+a:active,
+a:visited,
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+.container {
+    height: 100%;
+}
+input {
+	border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.confirmation{
+	display: none;
+	background-color: rgba(51,51,51,1)!important;
+	width: 300px;
+	height: 300px;
+}
+.notification{
+	display: none;
+	background-color: rgba(51,51,51,1)!important;
+	width: 300px;
+	height: 300px;
+}
+
+.confirmation_icon{
+	width: 80px;
+}
+.notification_icon{
+	margin-top: 20px;
+}
+.notification_icon img{
+	margin-top: 20px;
+	margin: 0px auto;
+}
+.confirmation_icon img, .proceed_icon img{
+	width: 80px;
+	cursor:pointer;
+	position: absolute;
+	right:0px;
+	bottom: 10px;
+}
+.cancel_icon img{
+	width: 80px;
+	cursor:pointer;
+	position: absolute;
+	left:0px;
+	bottom: 10px;
+}
+.message{
+	font-family: aliquamlight;
+	text-align:center;
+	position:absolute;
+	color: white;
+	width: 235px;
+	height: 50px;
+	top: 150px;
+	left: 30px;
+	font-size: 16px;
+}
+.ui-dialog-titlebar-close {
+	display: none;
+}

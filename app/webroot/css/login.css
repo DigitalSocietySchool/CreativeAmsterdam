@@ -1,0 +1,110 @@
+/*********************************************************
+ *                                                       *
+ *  Developed by CJC Automatisering.                     *
+ *  MIT License, copyright (c) 2014 MediaLab Amsterdam   *
+ *                                                       *
+ *********************************************************/
+ 
+@media (max-width: 767px) {
+	.filter {
+		background: url('/img/dashboard_unsigned/filter2.png') no-repeat;
+		background-size: 100% 100%;
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+}
+@media (min-width: 768px) {
+	.filter {
+		background: none;
+		background-size: 100% 100%;
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.user_container,
+	.org_container {
+		height: 120px;
+	}
+}
+
+@media (min-width: 992px) {
+	.filter {
+		background: none;
+		background-size: 100% 100%;
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.container {
+		width: 400px;
+	}
+	.logo,
+	.logo img {
+		width: 100%;
+	}
+	.logo {
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.filter {
+		background: none;
+		background-size: 100% 100%;
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.container {
+		width: 500px;
+	}
+	.join_container,
+	.search_container {
+		height: 210px;
+	}
+}
+
+#home_page {
+	background: url('/img/background/background1.jpg') no-repeat 0 0;
+	background-size: 100% 100%;
+	height: 100%;
+}
+.filter {
+	background: url('/img/dashboard_unsigned/filter2.png') no-repeat;
+	background-size: 100% 100%;
+	min-height: 100%;
+	min-width: 100%;
+	margin-left: -20px;
+}
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow-y: hidden;
+}
+.search_container {
+	margin-top: 140px;
+}
+.join_container,
+.search_container {
+	height: 120px;
+}
+.logo {
+	padding: 0;
+	margin-top: 10px;
+}
+.frame {
+	background: url('/img/dashboard_unsigned/frame.png') no-repeat;
+	background-size: 100% 100%;
+	min-height: 380px;
+	margin: 25px 0;
+	float: left;
+}
+.join,
+.search {
+	height: 100%;
+}

@@ -1,0 +1,134 @@
+/*********************************************************
+ *                                                       *
+ *  Developed by CJC Automatisering.                     *
+ *  MIT License, copyright (c) 2014 MediaLab Amsterdam   *
+ *                                                       *
+ *********************************************************/
+ 
+@media (max-width: 767px) {
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.place_container,
+	.event_container {
+		height: 110px;
+	}
+	.frame {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		margin-top: 23%;
+	}
+	.event_container {
+		margin-top: 60%;
+	}
+	body {
+		background: url('/img/dashboard_unsigned/filter2.png') no-repeat;
+		background-size: 100% 100%;
+		min-height: 100%;
+		min-width: 100%;
+		overflow-y: auto;
+	}
+}
+@media (min-width: 768px) {
+	body {
+		background: none;
+	}
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	.place_container,
+	.event_container {
+		height: 120px;
+	}
+	.frame {
+		margin-top: 23%;
+	}
+	.event_container {
+		margin-top: 60%;
+	}
+}
+
+@media (min-width: 992px) {
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.container {
+		width: 400px;
+	}
+	.logo,
+	.logo img {
+		width: 100%;
+	}
+	.logo {
+		margin-bottom: 10px;
+	}
+	.frame {
+		margin-top: 23%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.container {
+		width: 500px;
+	}
+	.place_container,
+	.event_container {
+		height: 210px;
+	}
+	.event_container {
+		margin-top: 30%;
+	}
+}
+
+body, html {
+	height: 100%;
+	overflow: hidden;
+}
+html {
+	background: url('/img/background/background1.jpg') no-repeat 0 0;
+	background-size: 100% 100%;
+	height: 100%;
+}
+body {
+	overflow-y: auto;
+}
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100%;
+}
+
+.logo {
+	padding: 0;
+	margin-top: 10px;
+}
+.frame {
+	background: url('/img/add_place_event/frame.png') no-repeat;
+	background-size: 100% auto;
+	max-width: 300px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+.place,
+.event {
+	height: 100%;
+	cursor:pointer;
+}

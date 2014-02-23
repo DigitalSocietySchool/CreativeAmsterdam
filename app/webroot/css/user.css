@@ -1,0 +1,229 @@
+/*********************************************************
+ *                                                       *
+ *  Developed by CJC Automatisering.                     *
+ *  MIT License, copyright (c) 2014 MediaLab Amsterdam   *
+ *                                                       *
+ *********************************************************/
+
+@media (max-width: 767px) {
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	body {
+		background: url('/img/dashboard_unsigned/filter2.png') no-repeat;
+		background-size: 100% 100%;
+		min-height: 100%;
+		min-width: 100%;
+		overflow-y: auto;
+	}
+	.user_container,
+	.org_container {
+		height: 150px;
+	}
+	#register_as .frame {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		margin-top: 60px;
+	}
+	.org_container {
+		margin-top: 40%;
+	}
+	.account {
+		float: left;
+		width: 100px;
+		height: 100px;
+		cursor: pointer;
+	}
+	.search {
+		float: right;
+		width: 100px;
+		height: 100px;
+		cursor: pointer;
+	}
+	.favorites {
+		float: left;
+		width: 100px;
+		height: 100px;
+		margin: 50px 0 0 0;
+		cursor: pointer;
+	}
+	.add {
+		float: right;
+		width: 100px;
+		height: 100px;
+		margin: 50px 0px 0 0;
+		cursor: pointer;
+	}
+}
+@media (min-width: 768px) {
+	body {
+		background: none;
+	}
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.user_container,
+	.org_container {
+		height: 120px;
+	}
+	#register_as .frame {
+		margin-top: 120px;
+	}
+	.org_container {
+		margin-top: 60%;
+	}
+	.account {
+		float: left;
+		width: 175px;
+		height: 175px;
+		cursor: pointer;
+	}
+	.search {
+		float: right;
+		width: 175px;
+		height: 175px;
+		cursor: pointer;
+	}
+	.favorites {
+		float: left;
+		width: 175px;
+		height: 175px;
+		margin: 50px 0 0 0;
+		cursor: pointer;
+	}
+	.add {
+		float: right;
+		width: 175px;
+		height: 175px;
+		margin: 50px 0px 0 0;
+		cursor: pointer;
+	}
+}
+
+@media (min-width: 992px) {
+	.filter {
+		min-height: 100%;
+		min-width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	.container {
+		width: 400px;
+	}
+	.logo,
+	.logo img {
+		width: 100%;
+	}
+	.logo {
+		margin-bottom: 10px;
+	}
+	#register_as .frame {
+		margin-top: 60px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.user_container,
+	.org_container {
+		height: 210px;
+	}
+	.org_container {
+		margin-top: 30%;
+	}
+}
+body, html {
+	height: 100%;
+	overflow: hidden;
+}
+html {
+	background: url('/img/background/background1.jpg') no-repeat 0 0;
+	background-size: 100% 100%;
+	min-height: 100%;
+}
+body {
+	overflow-y: auto;
+}
+input {
+	margin: 0 auto;
+	color: rgba(51, 51, 51, 0.4);
+}
+.login {
+	margin-top: 75px;
+}
+#errormessage {
+	color: red;
+	text-align: center;
+}
+#submit_login {
+	margin-top: 20px;
+	padding: 5px;
+	background-image: url('/img/login/login.png');
+	color: white;
+	text-align: center;
+	cursor:pointer;
+	background-color: rgba(51, 51, 51, 0.3);
+}
+.signup {
+	background-image: url('/img/login/login.png');
+	color: white;
+	text-align: center;
+	padding: 5px 0; 
+	margin-top: 150px;
+	display: block;
+	cursor:pointer;
+	background-color: rgba(51, 51, 51, 0.3);
+}
+.logo {
+	padding: 0;
+	margin-top: 10px;
+}
+#personal_home_page .frame {
+	background: url('/img/dashboard_signed/frame.png') no-repeat;
+	background-size: 100% auto;
+	height: 100%;
+	float: left;
+	margin-top: 27%;
+}
+.add_widget_left {
+	float: left;
+	width: 60px;
+	margin-left: 20px;
+}
+.add_widget_right {
+	float: right;
+	width: 60px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+#register_as .container {
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow-y: hidden;
+}
+#register_as .frame {
+	background: url('/img/login/frame.png') no-repeat;
+	background-size: 100% auto;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+	float: none;
+}
+.user,
+.org {
+	height: 100%;
+}
+#register_as .user, #register_as .org{
+	cursor:pointer;
+}
+.frame { 
+	min-height: 500px;
+}
